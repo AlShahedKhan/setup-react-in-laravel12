@@ -11,7 +11,7 @@ class PostController extends Controller
     /**
      * Display a listing of the resource.
      */
-     public function index()
+   public function index()
     {
         // Here we provide posts from the database to prop that we created in component
         return Inertia::render('Index', [

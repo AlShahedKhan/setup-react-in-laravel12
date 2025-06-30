@@ -4,6 +4,6 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
 
 Route::get('/', function () {
-    return view('app');
+    return view('welcome');
 });
 Route::resource('/post', PostController::class);
